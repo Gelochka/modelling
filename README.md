@@ -20,8 +20,11 @@ The list of files names with their description are below.
 #example of parameters.json
 {
     "z_0": 3.5, #the initial height, it is tha last z_0-value for which the portrais will be drawn.
+
     "dz":0.1, #heigth step
+
     "e": 0.01,  #eccentricity
+
     "n": 400 # number of periods
     
 }
