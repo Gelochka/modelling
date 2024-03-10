@@ -46,11 +46,12 @@ z_0= 0
 i = 0 
 
 
-z_V <-  ggplot(data = data) + theme_bw()
+z_V <-  ggplot(data = data) + theme_bw() + 
+                xlim(-intial_parameters$z_00 -1 , intial_parameters$z_00 + 1) 
 
  while (z_0 < intial_parameters$z_00 ){
   
- z_0 <- z_0 +intial_parameters$dz
+ z_0 <- z_0 +intial_parameters$dz 
   
  stiff <- integrator(z_0, E=data$E, intial_parameters$e)
  data = cbind(data, stiff)
