@@ -1,8 +1,7 @@
-# modelling
-###################################################
+# modelling 
 This is a program which draw phase space of Sitnikokv problem in R.
 The integration was based on this article https://ui.adsabs.harvard.edu/abs/2007AN....328..801K/abstract
-###################################################
+ 
 For a successful launch, you will need:
 1. Have R (Rstudio --- for you comfort) on your computer.
 2. Install special libraries, if you do not have any:
@@ -14,8 +13,7 @@ To install them paste at the Rstudio-console: install.packages(c("deSolve", 'ggp
    In terminal: Rscript sitnikov_problem.r 
         OR
   You can run it in Rstudio
-
-##################################################
+ 
 The list of files names with their description are below.
 1.  paramerets.json
    It contains input parameters.
@@ -32,7 +30,7 @@ The list of files names with their description are below.
 3.  phase_space_e_$e_z_0_$z_0.png
     It is output file with phase space. $e here means a real value from  paramerets.json. 
     For instance the  output file for current paramerets.json is phase_space_e_0.01_z_0_3.5.png
-##########################################
+ 
 
 
 
